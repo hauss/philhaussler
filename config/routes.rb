@@ -1,4 +1,6 @@
 Philhaussler::Application.routes.draw do
+  get 'books'  => 'pages#books'
+
   root :to => 'pages#home'
 
   # The priority is based upon order of creation:
